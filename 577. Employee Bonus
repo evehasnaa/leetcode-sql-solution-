@@ -1,6 +1,6 @@
 # 577. Employee Bonus
 
-## 🧠 Problem Summary
+##  Problem Summary ##
 
 Write an SQL query to **report the name and bonus amount** of each employee whose **bonus is less than 1000**.
 
@@ -8,9 +8,9 @@ Return the result table in any order.
 
 ---
 
-## 🗂️ Tables
+##  Tables
 
-### 👤 Employee Table
+###  Employee Table
 
 | Column Name | Type    | Description                              |
 |-------------|---------|------------------------------------------|
@@ -21,7 +21,7 @@ Return the result table in any order.
 
 ---
 
-### 💰 Bonus Table
+###  Bonus Table
 
 | Column Name | Type | Description                                   |
 |-------------|------|-----------------------------------------------|
@@ -30,13 +30,13 @@ Return the result table in any order.
 
 ---
 
-## 🎯 Goal
+##  Goal
 
 Return the `name` and `bonus` **of employees who have a bonus less than 1000**.
 
 ---
 
-## 🧪 Example
+##  Example
 
 ### Input
 
@@ -64,7 +64,7 @@ Return the `name` and `bonus` **of employees who have a bonus less than 1000**.
 
 ---
 
-## 🧩 SQL Solution
+##  SQL Solution
 
 ># Write your MySQL query statement below
  select name,bonus
